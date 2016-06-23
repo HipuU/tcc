@@ -108,11 +108,6 @@ void main()
 		tiraprimeiro(&f); //Remove o vertice cujo todos os vizinhos foram visitados
 		k++; 
 	}
-	for(i = 0; i <= 4; i++)
-	{
-		printf("\nCor: %d \n", cor[i]);
-	}
-	
 }
 
 fila* cria_fila (void)
